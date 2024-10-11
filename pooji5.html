@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sum Calculator</h1>
+
+        <h2>Integer Sum</h2>
+        <label for="int1">First Integer:</label>
+        <input type="number" id="int1" required>
+        
+        <label for="int2">Second Integer:</label>
+        <input type="number" id="int2" required>
+
+        <button id="intSumButton">Calculate Integer Sum</button>
+        <p id="intSumResult"></p>
+
+        <h2>Double Sum</h2>
+        <label for="double1">First Double:</label>
+        <input type="number" step="0.1" id="double1" required>
+        
+        <label for="double2">Second Double:</label>
+        <input type="number" step="0.1" id="double2" required>
+
+        <button id="doubleSumButton">Calculate Double Sum</button>
+        <p id="doubleSumResult"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
